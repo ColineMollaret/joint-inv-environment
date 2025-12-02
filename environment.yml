@@ -22,4 +22,6 @@ dependencies:
   - werkzeug
   - gunicorn
   - ipywidgets
-prefix: "/opt/conda"
+  - pip:
+    - reda
+  prefix: "/opt/conda"
