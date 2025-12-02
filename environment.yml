@@ -6,7 +6,6 @@ channels:
 dependencies:
   - postgresql
   - nodejs>=12.0.0
-  - pygimli>=1.5.0
   - dash
   - plotly
   - pandas
@@ -24,4 +23,5 @@ dependencies:
   - ipywidgets
   - pip:
     - reda
+    - pygimli>=1.5.0
   prefix: "/opt/conda"
